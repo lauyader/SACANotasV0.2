@@ -1,0 +1,240 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/sacanota.min.css" />
+
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="themes/perfil.css" />
+	<link rel="stylesheet" href="js/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+
+
+</head>
+<body>
+
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>SACANotas</h1>
+	</div><!-- /header -->
+<div class="centrado">
+	<img width="100%" height="150" src="img/SacaNotas_01.jpg">
+
+</div>
+		
+<div data-role="collapsible-set">
+
+	<div data-role="collapsible" data-collapsed="true">
+	<h3>Control</h3>
+	<a href="#casignaturas" data-role="button" data-rel="dialog" data-transition="pop" class="ui-btn ui-icon-info ui-btn-icon-left">Asignaturas Asignadas</a>
+
+
+
+	<a href="#two" data-role="button" data-rel="dialog" data-transition="pop" class="ui-btn ui-icon-calendar ui-btn-icon-left">Horarios Asignados</a>
+	<a href="#casistencia" data-role="button" data-rel="dialog" data-transition="pop" class="ui-btn ui-icon-check ui-btn-icon-left">Asistencia</a>
+
+	<a href="#calumnos" data-role="button" data-rel="dialog" data-transition="pop" class="ui-btn ui-icon-check ui-btn-icon-left">Alumnos</a>
+  	
+
+	</div>
+	
+	<div data-role="collapsible">
+	<h3>Academia</h3>
+	<a href="#tienda/index.html" data-role="button" data-rel="dialog" data-transition="pop">Alumnos</a>
+	<a href="#popup" data-role="button" data-rel="dialog" data-transition="pop">Notas</a>
+	<a href="#popup" data-role="button" data-rel="dialog" data-transition="pop">Informenes</a>
+	</div>
+
+	<div data-role="collapsible">
+	<h3>Social</h3>
+	<a href="#two" data-role="button" data-rel="dialog" data-transition="pop">Twitter</a>
+	<a href="#popup" data-role="button" data-rel="dialog" data-transition="pop">FaceBook</a>
+	<a href="#popup" data-role="button" data-rel="dialog" data-transition="pop">Google+</a>
+	</div>
+
+		<div data-role="collapsible">
+	<h3>Archivos</h3>
+
+	<a href="#two" data-role="button" data-rel="dialog" data-transition="pop">Exportar </a>
+	<a href="#two" data-role="button" data-rel="dialog" data-transition="pop">Importar </a>
+	<a href="#two" data-role="button" data-rel="dialog" data-transition="pop">Respaldo / Recuperar</a>
+	</div>
+
+
+	<div data-role="collapsible">
+	<h3>Exportar excel</h3>
+
+
+	<input type="button" id="btnExport" value=" Export Table data into Excel " />
+<br/>
+<br/>
+<div id="dvData">
+    <table>
+        <tr>
+            <th>Column One</th>
+            <th>Column Two</th>
+            <th>Column Three</th>
+        </tr>
+        <tr>
+            <td>row1 Col1</td>
+            <td>row1 Col2</td>
+            <td>row1 Col3</td>
+        </tr>
+        <tr>
+            <td>row2 Col1</td>
+            <td>row2 Col2</td>
+            <td>row2 Col3</td>
+        </tr>
+        <tr>
+            <td>row3 Col1</td>
+            <td>row3 Col2</td>
+            <td><a href="http://www.jquery2dotnet.com/">http://www.jquery2dotnet.com/</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+ 
+	</div>
+
+
+</div>
+ 	<!-- /content -->
+
+
+		<div data-role="footer">
+		<h4>Sistema Administrativo para el Control Académico</h4>
+	</div><!-- /footer -->
+</div>
+
+
+
+
+
+			<!-- Start of  page: #Control de Alumnos-->
+					<!-- Start of Conrol de Alumnos: #calumnos -->
+					<div data-role="page" id="calumnos" data-theme="a">
+						
+						<div data-role="header">
+							<h1>Control de Alumnos</h1>
+						</div><!-- /header -->
+						
+						<div data-role="content" data-theme="a">	
+							<h2>Control de Alumnos</h2>
+							
+							<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Agregar</a></p>
+							<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Editar</a></p>	
+							<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Eliminar</a></p>
+						
+						</div>
+					</div>
+
+
+
+			<!-- /COntrol de Asignaturas -->
+
+						<!-- Start of  page: #Control de Asignaturas-->
+					<!-- Start of Conrol de Alumnos: #calumnos -->
+					<div data-role="page" id="casignaturas" data-theme="a">
+						
+						<div data-role="header">
+							<h1>Control Asignaturas</h1>
+						</div><!-- /header -->
+						
+						<div data-role="content" data-theme="a">	
+							<h2>Control de Asignaturas</h2>
+							
+							<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Listar</a></p>
+							<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Editar</a></p>	
+							<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Eliminar</a></p>
+						
+						</div>
+					</div>
+			<!-- /Control de Asignaturas -->
+
+
+
+						<!-- /COntrol de Asistencia -->
+
+						<!-- Start of  page: #Control de Asistencia-->
+					<!-- Start of Conrol de Asistencia:#casistencia -->
+					<div data-role="page" id="casistencia" data-theme="a">
+						
+						<div data-role="header">
+							<h1>Control Asistencia</h1>
+						</div><!-- /header -->
+						
+						<div data-role="content" data-theme="a">	
+							<h2>Control de Asistencia</h2>
+							
+							<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Listar</a></p>
+							<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Editar</a></p>	
+							<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Eliminar</a></p>
+						
+						</div>
+					</div>
+			<!-- /Control de Asignaturas -->
+
+
+
+</div><!-- /page -->
+
+
+
+		<!-- Start of second page: #two -->
+		<div data-role="page" id="two" data-theme="a">
+		
+				<div data-role="header">
+				     <h1>Two</h1>
+				</div><!-- /header -->
+		
+		<div data-role="content" data-theme="a">	
+				<h2>Two</h2>
+				<p>I have an id of "two" on my page container. I'm the second page container in this multi-page template.</p>	
+				<p>Notice that the theme is different for this page because we've added a few <code>data-theme</code> swatch assigments here to show off how flexible it is. You can add any content or widget to these pages, but we're keeping these simple.</p>	
+				<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Back to page "one"</a>
+				</p>	
+		
+		</div>
+		<!-- /page two -->
+
+
+		<!-- Start of second page: #two -->
+		<div data-role="page" id="two2" data-theme="a">
+		
+				<div data-role="header">
+				     <h1>Two</h1>
+				</div><!-- /header -->
+		
+		<div data-role="content" data-theme="a">	
+				<h2>Two</h2>
+				<p>I have an id of "two" on my page container. I'm the second page container in this multi-page template.</p>	
+				<p>Notice that the theme is different for this page because we've added a few <code>data-theme</code> swatch assigments here to show off how flexible it is. You can add any content or widget to these pages, but we're keeping these simple.</p>	
+				<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Back to page "one"</a>
+				</p>	
+		
+		</div>
+		<!-- /page two -->
+
+
+
+
+	<!-- /content -->
+
+	<script>
+
+			$("#btnExport").click(function (e) {
+			window.open('data:application/vnd.ms-excel,' + $('#dvData').html());
+			e.preventDefault();
+			});
+
+
+	</script>
+			
+</body>
+</html>
