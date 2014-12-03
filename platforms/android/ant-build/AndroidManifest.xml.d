@@ -1,2 +1,2 @@
-/Users/luisauyadermont/Documents/workspace4/SACANotas/platforms/android/ant-build/AndroidManifest.xml : \
-/Users/luisauyadermont/Documents/workspace4/SACANotas/platforms/android/AndroidManifest.xml \
+/home/lauyader/AndroidStudioProjects/SACANotasV0.1/platforms/android/ant-build/AndroidManifest.xml : \
+/home/lauyader/AndroidStudioProjects/SACANotasV0.1/platforms/android/AndroidManifest.xml \

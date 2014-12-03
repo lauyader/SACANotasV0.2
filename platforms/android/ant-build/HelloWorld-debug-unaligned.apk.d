@@ -1,4 +1,4 @@
-/Users/luisauyadermont/Documents/workspace4/SACANotas/platforms/android/ant-build/HelloWorld-debug-unaligned.apk : \
-/Users/luisauyadermont/Documents/workspace4/SACANotas/platforms/android/ant-build/HelloWorld.ap_ \
-/Users/luisauyadermont/Documents/workspace4/SACANotas/platforms/android/ant-build/classes.dex \
-/Users/luisauyadermont/Documents/workspace4/SACANotas/platforms/android/CordovaLib/ant-build/classes.jar \
+/home/lauyader/AndroidStudioProjects/SACANotasV0.1/platforms/android/ant-build/HelloWorld-debug-unaligned.apk : \
+/home/lauyader/AndroidStudioProjects/SACANotasV0.1/platforms/android/ant-build/HelloWorld.ap_ \
+/home/lauyader/AndroidStudioProjects/SACANotasV0.1/platforms/android/ant-build/classes.dex \
+/home/lauyader/AndroidStudioProjects/SACANotasV0.1/platforms/android/CordovaLib/ant-build/classes.jar \
