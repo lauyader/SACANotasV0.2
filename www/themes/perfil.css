@@ -1,0 +1,6 @@
+.centrado{
+text-align: center;
+}
+.centrado * {
+margin: 0 auto;
+}
