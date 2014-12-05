@@ -80,7 +80,7 @@ function MuestraItem(tx, results) {
         if (results.rows.item(0).Existencia  != &quot;&quot;) {
         $('#tbLimiteCredito').val(results.rows.item(0).Existencia);
         }
-    };
+    }
 }
  
 function MuestraItems(tx, results) {

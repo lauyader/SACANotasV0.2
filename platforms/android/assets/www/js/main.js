@@ -29,7 +29,7 @@ function onBodyLoad() {
 	document.addEventListener("deviceready", onDeviceReady, false);
 	
    //navigator.notification.alert("PhoneGap is working");
-   alert('hola mundo!');
+   
 
 
 }
@@ -37,7 +37,7 @@ function onBodyLoad() {
 function onDeviceReady(){
 	//mkLog("Aplicación cargada y lista");
     //navigator.notification.alert("PhoneGap is working");
-    alert('Aplicación cargada y lista');
+    
 	
 	existe_db = window.localStorage.getItem("existe_db");
 	db = window.openDatabase("agenda_curso", "1.0", "DB del curso Phonegap", 200000);
@@ -57,7 +57,7 @@ function onDeviceReady(){
 */
 function creaDB(){
 	db.transaction(creaNuevaDB, errorDB, creaSuccess);
-	
+	alert('Aplicación cargada y lista');
 }
 
 function creaNuevaDB(tx){
